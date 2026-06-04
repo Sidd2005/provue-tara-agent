@@ -7,8 +7,10 @@
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
-    "module": "commonjs",
+    "target": "es2022",
+    "module": "ESNext",
     "moduleResolution": "node",
+    "esModuleInterop": true,
     "ignoreDeprecations": "6.0",
     "strict": true,
     "jsx": "react-jsx",
